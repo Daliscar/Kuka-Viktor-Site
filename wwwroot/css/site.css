@@ -1,0 +1,184 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+@font-face {
+  font-family:"bigmacca";
+  src: url("bigmacca.ttf") format("truetype");
+}
+
+.font-macca
+{
+  font-family: 'bigmacca', serif;
+}
+.card-transparent {
+  background: none;
+}
+
+.card-transparent .card-heading{
+  background: rgba(122, 130, 136, 0.5)!important;
+}
+
+.card-transparent .card-body{
+  background: rgba(46, 51, 56, 0.5)!important;
+}
+
+.btn-grad2 {background-image: linear-gradient(to right, #bdc3c7 0%, #2c3e50  51%, #bdc3c7  100%)}
+.btn-grad2 {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px rgb(54, 54, 54);
+   border-radius: 10px;
+   display: block;
+   font-family: 'bigmacca', serif;
+ }
+
+ .btn-grad2:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: dark;
+   text-decoration: none;
+ }
+ .input-custom
+ {
+  border: dark;
+  border-radius: 10px;
+  box-shadow: 0 0 6px #eee;
+  border-radius: 10px;
+ }
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+body {
+  font-family: 'sans-serif', serif;
+  background-image: url('https://imgur.com/LZHYqFy.jpg');
+  /* background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,73,9,1) 30%, rgba(97,58,14,1) 70%, rgba(2,0,36,1) 100%); */
+  /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(171,219,227,1) 30%, rgba(171,219,227,1) 70%, rgba(2,0,36,1) 100%); */
+}
+.border-2 {
+  border-width:3px !important;
+}
+#LoginCard
+{
+  background-color: rgba(250, 231, 145, .05);
+  box-shadow: 10px 5px rgba(0, 0, 0, 0.473);
+}
+#LoginCard > .card-header
+{
+  background-color: rgba(158, 129, 1, 0.685);
+}
+.card-header
+{
+  background-color: rgba(158, 129, 1, 0.685);
+}
+
+#RouteCards > .card
+{
+  background-color: rgba(250, 231, 145, .05);
+  box-shadow: 10px 5px rgba(0, 0, 0, 0.473);
+}
+#RouteCards > .card:hover 
+{
+  transform: scale(1.05);
+}
+
+#RouteCards > .card:hover ~ .card-header
+{
+  background-color: white;
+}
+
+.btn-grad {background-image: linear-gradient(to right, #C02425 0%, #F0CB35  51%, #C02425  100%)}
+.btn-grad {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   letter-spacing: 0.2em;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: dark;         
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+   font-family: "bigmacca", serif;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+.carousel-inner {
+  border-radius: 25px;
+  background-color: rgba(0,0,0,0);
+  overflow: hidden;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
